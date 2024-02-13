@@ -14,7 +14,7 @@
     "commander": "^12.0.0",
     "cros": "^1.0.1",
     "express": "^4.18.2",
-    "nanoid": "^3.3.7"
+    "nanoid": "^3.3.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
