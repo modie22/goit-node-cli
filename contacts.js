@@ -10,7 +10,6 @@ async function listContacts() {
    const data = await fs.readFile(contactsPath)
    return JSON.parse(data);
   }
-  listContacts()
   async function getContactById(contactId) {
     const contacts = await listContacts();
     const result = contacts.find(el => el.id === contactId);
